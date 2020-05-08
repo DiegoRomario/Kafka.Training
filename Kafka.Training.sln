@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-IntroductionToStreamsInMicroservices", "1-IntroductionToStreamsInMicroservices", "{919F20F1-CEE8-440E-9D88-9A969E9F1689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDemo", "src\1-IntroductionToStreamsInMicroservices\FirstDemo\FirstDemo.csproj", "{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44DEE025-F96D-40D6-80B2-EFB369173241}
+	EndGlobalSection
+EndGlobal
