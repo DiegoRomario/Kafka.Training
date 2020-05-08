@@ -18,7 +18,7 @@ namespace FirstDemo
                 {
                     var message = new Message<string, string>() { Value = $"Message Id: {Guid.NewGuid().ToString() }", Key = Guid.NewGuid().ToString() };
                     DeliveryResult<string, string> demo = await producer.ProduceAsync("demotopic", message);
-                    Console.WriteLine($"Sent to topic: {demo.Topic} / partition: {demo.Partition} / offset: {demo.Offset} /");
+                    Console.WriteLine($"Sent to topic: {demo.Topic} / partition: {demo.Partition} / offset: {demo.Offset} ");
                 }
                 catch (ProduceException<Null, string> e)
                 {

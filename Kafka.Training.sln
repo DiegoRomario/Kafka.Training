@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-IntroductionToStreamsInMi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDemo", "src\1-IntroductionToStreamsInMicroservices\FirstDemo\FirstDemo.csproj", "{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondDemo", "src\1-IntroductionToStreamsInMicroservices\SecondDemo\SecondDemo.csproj", "{6AECD939-61F1-49A8-8C21-E21329BBF40C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AECD939-61F1-49A8-8C21-E21329BBF40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AECD939-61F1-49A8-8C21-E21329BBF40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AECD939-61F1-49A8-8C21-E21329BBF40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AECD939-61F1-49A8-8C21-E21329BBF40C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F40B73A8-45FB-4492-BA6F-36D2D002FFFB} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
+		{6AECD939-61F1-49A8-8C21-E21329BBF40C} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44DEE025-F96D-40D6-80B2-EFB369173241}
