@@ -7,5 +7,8 @@
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="1.4.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
 
 </Project>

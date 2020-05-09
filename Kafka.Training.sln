@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer_one", "src\1-Intro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer_two", "src\1-IntroductionToStreamsInMicroservices\Consumer_two\Consumer_two.csproj", "{F289BAC6-ABAD-4E7E-B1DE-08832327EC58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\1-IntroductionToStreamsInMicroservices\Core\Core.csproj", "{09EEFEF0-04F3-4BD2-9794-F7DB50DF1814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{F289BAC6-ABAD-4E7E-B1DE-08832327EC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F289BAC6-ABAD-4E7E-B1DE-08832327EC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F289BAC6-ABAD-4E7E-B1DE-08832327EC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EEFEF0-04F3-4BD2-9794-F7DB50DF1814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EEFEF0-04F3-4BD2-9794-F7DB50DF1814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EEFEF0-04F3-4BD2-9794-F7DB50DF1814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EEFEF0-04F3-4BD2-9794-F7DB50DF1814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{B8071A45-774C-4CAE-8755-61A4498040ED} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
 		{79052CC9-2F10-4039-9D52-01A67B9B7393} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
 		{F289BAC6-ABAD-4E7E-B1DE-08832327EC58} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
+		{09EEFEF0-04F3-4BD2-9794-F7DB50DF1814} = {919F20F1-CEE8-440E-9D88-9A969E9F1689}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44DEE025-F96D-40D6-80B2-EFB369173241}
