@@ -1,13 +1,11 @@
 ﻿using Confluent.Kafka;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Core
 {
-    public class ProducerService
+    public class ProducerService<T>
     {
 
         public ProducerConfig _config { get; private set; }
@@ -17,18 +15,16 @@ namespace Core
             _config = new ProducerConfig();
             _config.BootstrapServers = "localhost:9092";
         }
-        public async Task<string> Run(string topic)
+        public async Task<string> Run(string topic, T Tmessage)
         {
 
             using (var producer = new ProducerBuilder<string, string>(_config).Build())
             {
                 try
                 {
-
-                var message = new Message<string, string>() { Value = $"Message Id: {Guid.NewGuid()}", Key = Guid.NewGuid().ToString() };
+                    var message = new Message<string, string>() { Value = JsonSerializer.Serialize<T>(Tmessage), Key = Guid.NewGuid().ToString()};
                     DeliveryResult<string, string> demo = await producer.ProduceAsync(topic, message);
                     return $"Sent to topic: {demo.Topic} / partition: {demo.Partition} / offset: {demo.Offset} ";
-
                 }
                 catch (ProduceException<Null, string>)
                 {

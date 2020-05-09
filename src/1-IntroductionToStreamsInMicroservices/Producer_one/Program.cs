@@ -8,10 +8,9 @@ namespace Producer_one
     {
         static async Task Main(string[] args)
         {
-
-            ProducerService service = new ProducerService();
+            var service = new ProducerService<Order>();
             while (true) {
-                Console.WriteLine(await service.Run("DEMO_ORDER"));
+                Console.WriteLine(await service.Run("TOPPER", new Order() { Id = 666, Amount = 155.00m, Client = "Diego" }));
             }
 
         }

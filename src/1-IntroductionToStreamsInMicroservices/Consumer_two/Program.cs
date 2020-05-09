@@ -8,14 +8,9 @@ namespace Consumer_two
         static void Main(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.Cyan;
-
-
             var service = new ConsumerService();
+            service.Consume("TOPPER", "NO", "IDNO2");
 
-            while (true)
-            {
-                Console.WriteLine(service.Consume("DEMO_ORDER", "Consumer_two", "Im Consumer two"));
-            }
 
         }
     }

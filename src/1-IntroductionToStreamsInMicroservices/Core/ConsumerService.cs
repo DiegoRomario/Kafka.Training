@@ -31,7 +31,7 @@ namespace Core
                     while (true)
                     {
                        ConsumeResult<string, string> message = consumer.Consume(token.Token);
-                       return $"Received [{message.Message.Value}] to topic: {message.Topic} / partition: {message.Partition} / offset: {message.Offset} /";
+                       Console.WriteLine($"Received [{message.Message.Value}] to topic: {message.Topic} / partition: {message.Partition} / offset: {message.Offset} /"); 
                     }
                 }
                 catch (OperationCanceledException)
