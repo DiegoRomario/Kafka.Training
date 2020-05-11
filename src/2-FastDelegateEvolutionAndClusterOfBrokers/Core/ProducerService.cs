@@ -15,6 +15,7 @@ namespace Core
         {
             _config = new ProducerConfig();
             _config.BootstrapServers = "localhost:9092";
+            _config.Acks = Acks.All;
         }
         public async Task<string> Run(string topic, T Tmessage)
         {
