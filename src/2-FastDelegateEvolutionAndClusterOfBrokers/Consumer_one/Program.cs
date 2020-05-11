@@ -11,7 +11,7 @@ namespace Consumer_one
         {
             Console.BackgroundColor = ConsoleColor.Green;
             var service = new ConsumerService();
-            service.Consume("mytopic", "NO", "IDNO1");
+            service.Consume("mytopic", "G1", "ID1");
 
         }
     }

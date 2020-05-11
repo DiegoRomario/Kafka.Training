@@ -9,7 +9,7 @@ namespace Consumer_two
         {
             Console.BackgroundColor = ConsoleColor.Cyan;
             var service = new ConsumerService();
-            service.Consume("TOPPER", "NO", "IDNO2");
+            service.Consume("mytopic", "G1", "ID2");
         }
     }
 }
